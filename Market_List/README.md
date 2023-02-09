@@ -1,6 +1,7 @@
 <h1 align="center"> Market List </h1>
     This project has the aim of build a struct of a buy list for a "market", however it can be used in any others case.
 <h2 align="center"> Funcionalities </h2>
+
 - The user can add itens in the "to buy" list and when its bought, he can mark a markbox, what will make this item move to the "bought list".
 - In addition the user can edit the itens in the "to buy" list and save some other name without remove.
 - The itens can be removed from the list if the user wants.

@@ -1,15 +1,17 @@
 html {
-    background: linear-gradient(177.52deg, #4574E3 2.11%, #154580 81.34%);
+    background: linear-gradient(177.52deg, #49b675 2.11%, #54ab77 81.34%);
     background-repeat: no-repeat;
     height: 100%;
 }
 
 body {
-    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+    font-family: "Courier New", "Comic Sans";
+    font-weight: 700;
 }
 
 h2, footer {
-    font-family: 'Mansalva';
+    font-family: "Courier New", "Comic Sans";
+    font-weight: 700;
 }
 
 button {
@@ -17,7 +19,7 @@ button {
 }
 
 .itens-comprados {
-text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 .borda-lista {

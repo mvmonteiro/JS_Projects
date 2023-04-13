@@ -10,15 +10,33 @@
     <title>Número Secreto</title>
 </head>
 <body>
-    <h1>Acerte o número secreto !</h1>
-
-    <h3>(O número está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>)</h3>
+    <div id="descricao" class="texto-descricao">
+        <h1>Acerte o Número Secreto !</h1>
+        <h2>O objetivo do jogo é descobrir qual é o número secreto.</h2>
+        <p>(O número está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>)</p>
+        <h3>Regras:</h3>
+        <ul>
+            <li><i class="fa-solid fa-check"></i> O jogo começa assim que algum dos jogadores falar algo.</li>
+            <li><i class="fa-solid fa-check"></i> Os jogadores devem dizer números dentro do intervalo de <span id="menor-valor">0</span> e <span id="maior-valor">100</span></li>
+            <li><i class="fa-solid fa-check"></i> Caso algum jogador falar um número fora do intervalo, o jogo retornará um <strong>erro</strong>.</li>
+            <li><i class="fa-solid fa-check"></i> Caso algum jogador falar uma palavra que não seja um número, o jogo retornará um <strong>erro</strong>.</li>
+            <li><i class="fa-solid fa-check"></i> O jogo acaba assim que algum dos jogadores acertar o número secreto ou se falarem <strong>Game Over</strong>.</li>
+        </ul>
+    </div>
 
     <div id="chute" class="mensagem">
         <!-- <div>Você disse:</div>
         <span class="box">20</span>
         <div>O número secreto é maior <i class="fa-solid fa-arrow-up-long"></i></div> -->
     </div>
+
+    <footer>
+        <h1 class="footer-h1">Developed by Marcus V. Monteiro</h1>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/marcusvmonteiro/">Linkedin</a>
+            <a href="https://github.com/mvmonteiro">Github</a>
+        </div>
+    </footer>
     <script src="app/sort.js"></script>
     <script src="app/audio.js"></script>
     <script src="app/validation.js"></script>

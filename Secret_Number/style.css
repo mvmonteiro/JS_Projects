@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 :root {
-    --font-family: 'DynaPuff', cursive;
+    --font-family: 'Ubuntu', sans-serif;
     --cor-primaria: #E4DCCF;
+    --cor-secundaria: #57C5B6;
     --cor-bg: #1A5F7A;
 }
 
@@ -24,13 +25,28 @@ h1 {
 }
 
 h2 {
-    font-size: 4rem;
-    color: #57C5B6;
+    font-size: 2rem;
+    margin: 2rem 0;
 }
 
 h3 {
-    font-size: 3rem;
-    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    margin: 2rem 0 1rem 0;
+    color: var(--cor-secundaria);
+}
+
+p {
+    font-size: 2rem;
+}
+
+li {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--cor-secundaria);
+}
+
+strong {
+    color: #F15A59;
 }
 
 .mensagem {
@@ -56,6 +72,128 @@ h3 {
     cursor: pointer;
 }
 
-.over {
+.h2-acertou {
+    font-size: 4rem;
+    color: var(--cor-secundaria);
+}
+
+.h3-acertou {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    color: var(--cor-primaria);
+}
+
+.h2-over {
     color: red;
+    font-size: 4rem;
+    border: 1px solid red;
+    padding: 1.5rem;
+}
+
+.h3-over {
+    color: red;
+    margin: 5rem 0 0 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.footer-h1 {
+    font-size: 1.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    border: 1px solid var(--cor-primaria);
+    padding: 1rem;
+    color: black;
+
+    box-sizing: content-box;
+}
+
+a:hover {
+    background: var(--cor-primaria);
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+        margin: 1rem 0;
+    }
+    
+    h3 {
+        font-size: 2rem;
+        margin: 3rem 0 1rem 0;
+        color: var(--cor-secundaria);
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+    
+    li {
+        font-size: 1rem;
+
+        color: var(--cor-secundaria);
+    }
+
+    .box {
+        font-size: 6rem;
+    }
+
+    .dica {
+        font-size: 1.5rem;
+    }
+
+    .invalido {
+        font-size: 1.5rem;
+    }
+
+    .h2-over {
+        font-size: 3.2rem;
+        padding: 1.2rem;
+    }
+    
+    .h3-over {
+        font-size: 1.5rem;
+    }
+
+    .h2-acertou {
+        font-size: 3rem;
+    }
+    
+    .h3-acertou {
+        font-size: 1.8rem;
+    }
+
+    .footer-h1 {
+        font-size: 1rem;
+    }
+    
+    .links {
+        gap: 1rem;
+    }
+    
+    a {
+        font-size: 0.8rem;
+    }
+    
+    a:hover {
+        background: var(--cor-primaria);
+    }
 }

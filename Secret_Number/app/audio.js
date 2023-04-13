@@ -1,4 +1,5 @@
 const elementoChute = document.getElementById('chute');
+const divDescricao = document.getElementById('descricao');
 
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
@@ -15,6 +16,11 @@ function onSpeak(evento) {
 }
 
 function exibeChuteNaTela(chute) {
+    divDescricao.innerHTML = `
+        <h1>Acerte o número secreto !</h1>
+        <p>(O número está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>)<p>
+    `
+
     elementoChute.innerHTML = `
         <div>Você disse</div>
         <span class="box">${chute}</span>

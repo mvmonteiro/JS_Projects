@@ -5,5 +5,5 @@
 - The user needs to enable any voice divice in the web page.
 - Once the microfone is available, the game can start. The plays just need to say any number within range where the secret number is.
 - If the the play say any invalid word, he will get an error (that includes invalid numbers too).
-- You can find the game here: https://643820861346ed0e4458cb5a--gleeful-hotteok-3e8182.netlify.app.
+- You can find the game here: https://64382b9133e7831abb6b0850--comforting-kelpie-3a1fe0.netlify.app.
 - The voice extension don't work in every browser, it was just tested in google chrome.

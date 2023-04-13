@@ -7,3 +7,5 @@
 - If the the play say any invalid word, he will get an error (that includes invalid numbers too).
 - The game finish when one play hit the right number.
 - If one player say "game over", the game will finish.
+- You can find the game here: https://643775ad7a3529368d983fb5--superlative-sunflower-63d39f.netlify.app.
+- The voice extension don't work in every browser, it was just tested in google chrome.

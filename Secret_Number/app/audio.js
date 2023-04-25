@@ -18,7 +18,7 @@ function onSpeak(evento) {
 function exibeChuteNaTela(chute) {
     divDescricao.innerHTML = `
         <h1>Acerte o número secreto !</h1>
-        <p>(O número está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>)<p>
+        <p>(O número está entre <span id="menor-valor">1</span> e <span id="maior-valor">1000</span>)<p>
     `
 
     elementoChute.innerHTML = `
